@@ -1,0 +1,17 @@
+body {
+  background-color: #333;
+}
+.excursionesCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.excursion {
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1px 15px;
+  text-align: center;
+  width: clamp(200px, 40vw, 400px);
+}
